@@ -1,6 +1,10 @@
 # MiBandDemo
 小米手环iOS开发实战系列Demo
-博客教程地址：http://blog.csdn.net/b735098742/article/details/72911890 
+<br></br>
+CSDN博客教程地址：http://blog.csdn.net/b735098742/article/details/72911890 
+<br></br>
+简书教程地址：http://www.jianshu.com/p/52fe8c676811
+<br></br>
 
 可做学习研究等非商业用途的使用，希望可以动动手指Star和Watch一下，本Demo及博客教程的持续更新需要你的支持。
 如果有建议及见解，欢迎与我讨论。
@@ -13,5 +17,5 @@
 
 ##**教程链接**：<br></br>
 
-第1讲：[小米手环iOS开发实战(一)：iOS蓝牙框架CoreBluetooth](http://blog.csdn.net/b735098742/article/details/72911890) <br></br>
+第1讲：小米手环iOS开发实战(一)：iOS蓝牙框架CoreBluetooth [CSDN](http://blog.csdn.net/b735098742/article/details/72911890) [简书](http://www.jianshu.com/p/52fe8c676811)<br></br>
 第2讲：[小米手环iOS开发实战(二)]() (待更) <br></br>
