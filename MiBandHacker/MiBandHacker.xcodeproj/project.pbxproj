@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79CA7021EE8310500104BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CA7011EE8310500104BFB /* AppDelegate.swift */; };
+		E79CA7041EE8310500104BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CA7031EE8310500104BFB /* ViewController.swift */; };
+		E79CA7071EE8310500104BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79CA7051EE8310500104BFB /* Main.storyboard */; };
+		E79CA7091EE8310500104BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79CA7081EE8310500104BFB /* Assets.xcassets */; };
+		E79CA70C1EE8310500104BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79CA70A1EE8310500104BFB /* LaunchScreen.storyboard */; };
+		E79CA7171EE8310500104BFB /* MiBandHackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CA7161EE8310500104BFB /* MiBandHackerTests.swift */; };
+		E79CA7221EE8310500104BFB /* MiBandHackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CA7211EE8310500104BFB /* MiBandHackerUITests.swift */; };
+		E79CA7311EE8315100104BFB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79CA7301EE8315100104BFB /* CoreBluetooth.framework */; };
+		E79CA7331EE8534400104BFB /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = E79CA7321EE8534400104BFB /* Readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79CA7131EE8310500104BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79CA6F61EE8310500104BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79CA6FD1EE8310500104BFB;
+			remoteInfo = MiBandHacker;
+		};
+		E79CA71E1EE8310500104BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79CA6F61EE8310500104BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79CA6FD1EE8310500104BFB;
+			remoteInfo = MiBandHacker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79CA6FE1EE8310500104BFB /* MiBandHacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiBandHacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79CA7011EE8310500104BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E79CA7031EE8310500104BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E79CA7061EE8310500104BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79CA7081EE8310500104BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79CA70B1EE8310500104BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79CA70D1EE8310500104BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79CA7121EE8310500104BFB /* MiBandHackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiBandHackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79CA7161EE8310500104BFB /* MiBandHackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiBandHackerTests.swift; sourceTree = "<group>"; };
+		E79CA7181EE8310500104BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79CA71D1EE8310500104BFB /* MiBandHackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiBandHackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79CA7211EE8310500104BFB /* MiBandHackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiBandHackerUITests.swift; sourceTree = "<group>"; };
+		E79CA7231EE8310500104BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79CA7301EE8315100104BFB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E79CA7321EE8534400104BFB /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79CA6FB1EE8310500104BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79CA7311EE8315100104BFB /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79CA70F1EE8310500104BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79CA71A1EE8310500104BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79CA6F51EE8310500104BFB = {
+			isa = PBXGroup;
+			children = (
+				E79CA7001EE8310500104BFB /* MiBandHacker */,
+				E79CA7151EE8310500104BFB /* MiBandHackerTests */,
+				E79CA7201EE8310500104BFB /* MiBandHackerUITests */,
+				E79CA6FF1EE8310500104BFB /* Products */,
+				E79CA72F1EE8315100104BFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E79CA6FF1EE8310500104BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79CA6FE1EE8310500104BFB /* MiBandHacker.app */,
+				E79CA7121EE8310500104BFB /* MiBandHackerTests.xctest */,
+				E79CA71D1EE8310500104BFB /* MiBandHackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79CA7001EE8310500104BFB /* MiBandHacker */ = {
+			isa = PBXGroup;
+			children = (
+				E79CA7011EE8310500104BFB /* AppDelegate.swift */,
+				E79CA7031EE8310500104BFB /* ViewController.swift */,
+				E79CA7051EE8310500104BFB /* Main.storyboard */,
+				E79CA7081EE8310500104BFB /* Assets.xcassets */,
+				E79CA70A1EE8310500104BFB /* LaunchScreen.storyboard */,
+				E79CA70D1EE8310500104BFB /* Info.plist */,
+				E79CA7321EE8534400104BFB /* Readme.md */,
+			);
+			path = MiBandHacker;
+			sourceTree = "<group>";
+		};
+		E79CA7151EE8310500104BFB /* MiBandHackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79CA7161EE8310500104BFB /* MiBandHackerTests.swift */,
+				E79CA7181EE8310500104BFB /* Info.plist */,
+			);
+			path = MiBandHackerTests;
+			sourceTree = "<group>";
+		};
+		E79CA7201EE8310500104BFB /* MiBandHackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E79CA7211EE8310500104BFB /* MiBandHackerUITests.swift */,
+				E79CA7231EE8310500104BFB /* Info.plist */,
+			);
+			path = MiBandHackerUITests;
+			sourceTree = "<group>";
+		};
+		E79CA72F1EE8315100104BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79CA7301EE8315100104BFB /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79CA6FD1EE8310500104BFB /* MiBandHacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79CA7261EE8310500104BFB /* Build configuration list for PBXNativeTarget "MiBandHacker" */;
+			buildPhases = (
+				E79CA6FA1EE8310500104BFB /* Sources */,
+				E79CA6FB1EE8310500104BFB /* Frameworks */,
+				E79CA6FC1EE8310500104BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiBandHacker;
+			productName = MiBandHacker;
+			productReference = E79CA6FE1EE8310500104BFB /* MiBandHacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79CA7111EE8310500104BFB /* MiBandHackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79CA7291EE8310500104BFB /* Build configuration list for PBXNativeTarget "MiBandHackerTests" */;
+			buildPhases = (
+				E79CA70E1EE8310500104BFB /* Sources */,
+				E79CA70F1EE8310500104BFB /* Frameworks */,
+				E79CA7101EE8310500104BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79CA7141EE8310500104BFB /* PBXTargetDependency */,
+			);
+			name = MiBandHackerTests;
+			productName = MiBandHackerTests;
+			productReference = E79CA7121EE8310500104BFB /* MiBandHackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E79CA71C1EE8310500104BFB /* MiBandHackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79CA72C1EE8310500104BFB /* Build configuration list for PBXNativeTarget "MiBandHackerUITests" */;
+			buildPhases = (
+				E79CA7191EE8310500104BFB /* Sources */,
+				E79CA71A1EE8310500104BFB /* Frameworks */,
+				E79CA71B1EE8310500104BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79CA71F1EE8310500104BFB /* PBXTargetDependency */,
+			);
+			name = MiBandHackerUITests;
+			productName = MiBandHackerUITests;
+			productReference = E79CA71D1EE8310500104BFB /* MiBandHackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79CA6F61EE8310500104BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = minecode.org;
+				TargetAttributes = {
+					E79CA6FD1EE8310500104BFB = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = XQ4VPYFFH5;
+						ProvisioningStyle = Automatic;
+					};
+					E79CA7111EE8310500104BFB = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = XQ4VPYFFH5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E79CA6FD1EE8310500104BFB;
+					};
+					E79CA71C1EE8310500104BFB = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = XQ4VPYFFH5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E79CA6FD1EE8310500104BFB;
+					};
+				};
+			};
+			buildConfigurationList = E79CA6F91EE8310500104BFB /* Build configuration list for PBXProject "MiBandHacker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79CA6F51EE8310500104BFB;
+			productRefGroup = E79CA6FF1EE8310500104BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79CA6FD1EE8310500104BFB /* MiBandHacker */,
+				E79CA7111EE8310500104BFB /* MiBandHackerTests */,
+				E79CA71C1EE8310500104BFB /* MiBandHackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79CA6FC1EE8310500104BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79CA70C1EE8310500104BFB /* LaunchScreen.storyboard in Resources */,
+				E79CA7091EE8310500104BFB /* Assets.xcassets in Resources */,
+				E79CA7071EE8310500104BFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79CA7101EE8310500104BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79CA71B1EE8310500104BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79CA6FA1EE8310500104BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79CA7041EE8310500104BFB /* ViewController.swift in Sources */,
+				E79CA7021EE8310500104BFB /* AppDelegate.swift in Sources */,
+				E79CA7331EE8534400104BFB /* Readme.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79CA70E1EE8310500104BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79CA7171EE8310500104BFB /* MiBandHackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79CA7191EE8310500104BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79CA7221EE8310500104BFB /* MiBandHackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79CA7141EE8310500104BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79CA6FD1EE8310500104BFB /* MiBandHacker */;
+			targetProxy = E79CA7131EE8310500104BFB /* PBXContainerItemProxy */;
+		};
+		E79CA71F1EE8310500104BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79CA6FD1EE8310500104BFB /* MiBandHacker */;
+			targetProxy = E79CA71E1EE8310500104BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E79CA7051EE8310500104BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79CA7061EE8310500104BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79CA70A1EE8310500104BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79CA70B1EE8310500104BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79CA7241EE8310500104BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E79CA7251EE8310500104BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79CA7271EE8310500104BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				INFOPLIST_FILE = MiBandHacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = minecode.org.MiBandHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E79CA7281EE8310500104BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				INFOPLIST_FILE = MiBandHacker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = minecode.org.MiBandHacker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E79CA72A1EE8310500104BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				INFOPLIST_FILE = MiBandHackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = minecode.org.MiBandHackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiBandHacker.app/MiBandHacker";
+			};
+			name = Debug;
+		};
+		E79CA72B1EE8310500104BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				INFOPLIST_FILE = MiBandHackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = minecode.org.MiBandHackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiBandHacker.app/MiBandHacker";
+			};
+			name = Release;
+		};
+		E79CA72D1EE8310500104BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				INFOPLIST_FILE = MiBandHackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = minecode.org.MiBandHackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MiBandHacker;
+			};
+			name = Debug;
+		};
+		E79CA72E1EE8310500104BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = XQ4VPYFFH5;
+				INFOPLIST_FILE = MiBandHackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = minecode.org.MiBandHackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MiBandHacker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79CA6F91EE8310500104BFB /* Build configuration list for PBXProject "MiBandHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79CA7241EE8310500104BFB /* Debug */,
+				E79CA7251EE8310500104BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79CA7261EE8310500104BFB /* Build configuration list for PBXNativeTarget "MiBandHacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79CA7271EE8310500104BFB /* Debug */,
+				E79CA7281EE8310500104BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E79CA7291EE8310500104BFB /* Build configuration list for PBXNativeTarget "MiBandHackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79CA72A1EE8310500104BFB /* Debug */,
+				E79CA72B1EE8310500104BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E79CA72C1EE8310500104BFB /* Build configuration list for PBXNativeTarget "MiBandHackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79CA72D1EE8310500104BFB /* Debug */,
+				E79CA72E1EE8310500104BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79CA6F61EE8310500104BFB /* Project object */;
+}
