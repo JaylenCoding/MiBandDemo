@@ -25,6 +25,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     @IBOutlet weak var loadingInd: UIActivityIndicatorView!
     @IBOutlet weak var statusLabel: UILabel!
     @IBOutlet weak var resultField: UITextView!
+    @IBOutlet weak var vibrateLevel: UISegmentedControl!
     
     // Data controller
     var theManager: CBCentralManager!
@@ -72,7 +73,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     
     @IBAction func vibrateAction(_ sender: Any) {
         if ((thePerpher != nil) && (theVibrator != nil)) {
-            let data: [UInt8] = [UInt8.init(2)];
+            let data: [UInt8] = [UInt8.init(vibrateLevel.selectedSegmentIndex+1)];
             let theData: Data = Data.init(bytes: data)
             thePerpher.writeValue(theData, for: theVibrator, type: CBCharacteristicWriteType.withoutResponse)
         }

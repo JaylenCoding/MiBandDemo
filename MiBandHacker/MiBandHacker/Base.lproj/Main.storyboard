@@ -97,6 +97,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zeg-0a-NSr">
+                                <rect key="frame" x="205" y="243" width="83" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="轻"/>
+                                    <segment title="重"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -108,6 +116,7 @@
                         <outlet property="stopButton" destination="dge-gd-4l5" id="VWp-s9-6MD"/>
                         <outlet property="stopVibrateButton" destination="hnR-Tw-8yh" id="R5w-7f-5il"/>
                         <outlet property="vibrateButton" destination="b1P-ea-TE2" id="5yD-x7-dWm"/>
+                        <outlet property="vibrateLevel" destination="zeg-0a-NSr" id="5mA-jS-VY4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
