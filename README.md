@@ -6,7 +6,7 @@ CSDN博客教程地址：http://blog.csdn.net/b735098742/article/details/7291189
 简书教程地址：http://www.jianshu.com/p/52fe8c676811
 <br></br>
 
-可做学习研究等非商业用途的使用，希望可以动动手指Star和Watch一下，本Demo及博客教程的持续更新需要你的支持。
+如果喜欢，请动动手指Star一下，本Demo及博客教程的持续更新需要你的支持。
 如果有建议及见解，欢迎与我讨论。
 
 ----
