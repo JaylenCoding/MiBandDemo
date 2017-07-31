@@ -19,4 +19,3 @@ CSDN博客教程地址：http://blog.csdn.net/b735098742/article/details/7291189
 
 第1讲：小米手环iOS开发实战(一)：iOS蓝牙框架CoreBluetooth [CSDN](http://blog.csdn.net/b735098742/article/details/72911890) [简书](http://www.jianshu.com/p/52fe8c676811)<br></br>
 第2讲：小米手环iOS开发实战(二)：开发Demo让你的手环振动起来 [CSDN](http://blog.csdn.net/b735098742/article/details/72930429) [简书](http://www.jianshu.com/p/8f94875bdde3)<br></br>
-第3讲：小米手环iOS开发实战(三)：待更
